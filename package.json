@@ -1,0 +1,14 @@
+{
+  "name": "vercel-pkg-dynamic-import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "pkg index.js --target=node16-macos-x64 --public --no-bytecode --output=dist/index"
+  },
+  "dependencies": {
+    "flatgeobuf": "^3.24.1",
+    "ol": "^7.2.0",
+    "pkg": "^5.8.0"
+  }
+}
